@@ -1,11 +1,9 @@
 package com.example.tictactoeapp;
 
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.graphics.Color;
-import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -30,7 +28,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             {0, 4, 8}, {2, 4, 6}
     };
 
-    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
